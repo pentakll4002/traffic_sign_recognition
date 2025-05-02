@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode config
+.vscode/
+
+# MacOS and Linux hidden files
+.DS_Store
+Thumbs.db
+
+# Model weights & outputs
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.tflite
+
+# Training logs and TensorBoard
+*.log
+logs/
+events.out.tfevents.*
+
+# Dataset folders
+archive/
+*.csv
+*.zip
+
+# PyTest cache
+.pytest_cache/
+.cache/
+
+# Python egg metadata
+*.egg-info/
+dist/
+build/
+
+# Any saved predictions or temp files
+*.npy
+*.npz
+*.pkl
+*.sav
+
+# System/IDE specific
+.idea/
